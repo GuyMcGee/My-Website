@@ -1,0 +1,107 @@
+html {
+  /* 62.5% of 16px = 10px*/
+  font-size: 62.5%;
+  color: #111;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Calibri;
+}
+
+.section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(63, 63, 63);
+  padding: 1rem;
+  font-size: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: fixed;
+  height: 28px;
+  width: 100vw;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-button {
+  margin: 1.6rem;
+  color: white;
+}
+
+#home-section {
+  position: relative;
+  min-height: 100vh;
+  margin: 0 0;
+  position: relative;
+  background-image: url(../images/dark-desk.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  /* background-blend-mode: lighten; */
+}
+
+#title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  background-color: dodgerblue;
+  background: rgba(36, 36, 36, 0.8);
+  border-radius: 5px;
+  font-size: 6.5rem;
+  color: azure;
+  text-shadow: 3px 3px rgb(49, 49, 49);
+  margin-bottom: 17rem;
+}
+
+.subtitle {
+  font-size: 3rem;
+}
+
+.my-name,
+.subtitle {
+  margin: 0.5rem 2rem;
+}
+
+.section-title {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+  padding: 0.5rem 4rem;
+  font-size: 5rem;
+  color: white;
+  background: rgba(36, 36, 36, 0.4);
+  border-radius: 5px;
+  /* text-shadow: -1px -1px 0 #1c1c1c, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c,
+    1px 1px 0 #1c1c1c; */
+}
+
+#testimonials-section {
+  background: url(../svg-backgrounds/liquid-cheese.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#about-section {
+  background: rgb(63, 63, 63);
+}

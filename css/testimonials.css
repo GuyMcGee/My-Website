@@ -1,3 +1,10 @@
+#testimonials-section {
+  background: url(../svg-backgrounds/liquid-cheese.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .tcontainer {
   height: 600px;
   margin: 0;
