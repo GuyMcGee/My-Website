@@ -1,0 +1,30 @@
+#contact-section {
+  background: blueviolet;
+}
+
+.fa-envelope-open-text {
+  color: white;
+  font-size: 20rem;
+}
+
+.fa-envelope {
+  font-size: 20rem;
+  transition: font-size 2s, color 2s;
+}
+
+.fa-envelope:hover {
+  font-size: 25rem;
+  color: gold;
+}
+
+.email-button {
+  color: white;
+}
+
+.change-icon > .fa-envelope-open-text + .email-button,
+.change-icon:hover > .fa-envelope-open-text {
+  display: none;
+}
+.change-icon:hover > .fa-envelope-open-text + .email-button {
+  display: inherit;
+}
