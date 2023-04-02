@@ -95,13 +95,6 @@ a {
     1px 1px 0 #1c1c1c; */
 }
 
-#testimonials-section {
-  background: url(../svg-backgrounds/liquid-cheese.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 #about-section {
   background: rgb(63, 63, 63);
 }

@@ -1,0 +1,42 @@
+body {
+  background: url(../svg-backgrounds/endless-constellation.svg);
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.credit-list {
+  width: 50ch;
+  margin-bottom: 10rem;
+}
+
+.category {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 15rem;
+}
+
+a {
+  text-shadow: 0 0 0;
+  text-decoration: underline;
+}
+
+.credit {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+#back-button {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+}
