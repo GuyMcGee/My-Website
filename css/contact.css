@@ -18,7 +18,7 @@
 
 .fa-envelope {
   font-size: 20rem;
-  transition: font-size 0.7s, color 2s;
+  transition: font-size 1s, color 2s;
 }
 
 .fa-envelope:hover {

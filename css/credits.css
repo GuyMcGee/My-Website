@@ -15,6 +15,9 @@ body {
   text-align: center;
   font-size: 5rem;
   font-weight: bold;
+}
+
+.category:not(:first-child) {
   margin-top: 15rem;
 }
 
@@ -28,6 +31,9 @@ a {
   color: white;
   text-shadow: 2px 2px 2px black;
   text-align: left;
+}
+
+.credit:not(:last-child) {
   margin-bottom: 5rem;
 }
 
