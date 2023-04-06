@@ -172,10 +172,11 @@
   text-align: left;
 }
 
+#t-text-a,
 #t-text-e {
   text-align: center;
   font-size: 30px;
   line-height: 39px;
   width: 50ch;
-  padding-top: 50px;
+  padding-top: 40px;
 }
