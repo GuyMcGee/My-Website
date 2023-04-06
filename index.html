@@ -323,64 +323,174 @@
           </div>
         </div>
       </div>
-      <div id="testimonials-section" class="section">
+      <div class="testimonials-section" class="section">
         <span><h2 class="section-title">Testimonials</h2></span>
-        <div class="tcontainer">
-          <input type="radio" name="position" checked />
-          <input type="radio" name="position" />
-          <input type="radio" name="position" />
-          <input type="radio" name="position" />
-          <input type="radio" name="position" />
-          <div id="carousel">
-            <div class="item">
-              <p class="tcard-text">
-                "Adam has exceptional work ethic and attention to detail. Not
+    <div id="t-container">
+      <input
+        hidden
+        type="radio"
+        name="carousel-control"
+        id="button_a"
+        checked
+      />
+      <input hidden type="radio" name="carousel-control" id="button_b" />
+      <input hidden type="radio" name="carousel-control" id="button_c" />
+      <input hidden type="radio" name="carousel-control" id="button_d" />
+      <input hidden type="radio" name="carousel-control" id="button_e" />
+      <input hidden type="radio" name="carousel-control" id="button_f" />
+      <div id="carousel">
+        <div class="p-wrapper">
+          <section class="panel_a">
+            <p class="t-heading">
+              <span id="t-text-a"  class="t-title"
+                >Joel Bergman - Founder & Lead Developer at Grizzhoot
+                </span>
+            </p>
+            <div class="t-text">
+              <p>"Adam is a hard worker and a learner."</p>
+            </div>
+          </section>
+          <section class="panel_b">
+            <div class="t-heading">
+              <img class="t-pic" src="./images/khadir.jpg" alt="Khadir">
+              <div class="t-head-box">
+                <p class="t-name">Khadir Williams</p>
+                  <p class="t-title">Software Engineer at Spiff Inc.</p>
+              </div>
+            </div>
+            <div id="t-text-b"  class="t-text">
+              <p>
+                "I've had the pleasure of working with Adam as a third-party
+                mentor. Over this time, I've had the chance to see Adam's
+                hard-work, resiliency and learning capacity first hand. Software
+                development is not an easy thing to learn, especially when
+                starting from a place of little context, but Adam has taken that
+                challenge head on.
+              </p>
+              <p>
+                Adam has exceptional work ethic and attention to detail. Not
                 settling for satisfactory, he spends extra time making sure his
-                work goes above and beyond what is required... Any team he joins
-                will get a friendly, hard-working, and fun-loving person who
-                will do everything he can to add value to and support his
-                teammates."
+                work goes above and beyond what is required. He demonstrated
+                this by consistently asking me if I would be willing to coach
+                him through extra credit portions of his coding assignments,
+                expressing a desire to be able to understand how to solve all
+                the problems presented. This mentality certainly paid dividends
+                as Adam progressed from writing simple mathematics expressions
+                in a C# console application, to designing and implementing his
+                own full-stack web application in ASP.NET in just six months.
               </p>
-              <p id="k-attr" class="tcard-attribution">
-                <span class="tcard-name">– Khadir Williams</span>
-                <span class="tcard-title">Mentor</span>
-                <span class="tcard-company"
-                  >Software Engineer - Spiff Inc.</span
-                >
-              </p>
-            </div>
-            <div class="item">
-              <p id="n-text" class="tcard-text">
-                "Adam is an amazing partner who not only takes initiative when
-                needed but also knows when he is unsure of something and does
-                not cut corners to find an answer. Adam is an amazing teammate
-                who will bring positive energy and a level of professionalism
-                that will be an asset to anyone who is fortunate enough to work
-                with him."
-              </p>
-              <p id="n-attr" class="tcard-attribution">
-                <span class="tcard-name">– Nelson Fant IV</span>
-                <span class="tcard-title">Eleven Fifty Academy Classmate</span>
-                <span class="tcard-company"></span>
+              <p>
+                Adam has been a joy to mentor and any team he joins will get a
+                friendly, hard-working, and fun-loving person who will do
+                everything he can to add value to and support his teammates."
               </p>
             </div>
-            <div class="item">
-              <p class="tcard-text">
-                "In more than thirty years of formal business and ministry
+          </section>
+
+          <section class="panel_c">
+            <p class="t-heading">
+                <span class="t-title"
+                  >Thomas Fraley - Senior Software Engineer at Liberty Mutual
+                  </span>
+              </p>
+              <div id="t-text-c"  class="t-text">
+                <p>"Adam is a hard worker and a learner."</p>
+              </div>
+            </section>
+          </section>
+
+          <section class="panel_d">
+            <p class="t-heading">
+                <span class="t-title"
+                  >Joel Bergman - Founder & Lead Developer at Grizzhoot
+                  </span>
+              </p>
+              <div id="t-text-d"  class="t-text">
+                <p>"Adam is a hard worker and a learner."</p>
+              </div>
+            </section>
+          </section>
+
+          <section class="panel_e">
+            <p class="t-heading">
+                <span class="t-title"
+                  >Nelson Fant IV - Eleven Fifty Academy Classmate
+                  </span>
+              </p>
+              <div id="t-text-e" class="t-text">
+                <p>"Adam is an amazing partner who not only takes initiative when
+                    needed but also knows when he is unsure of something and does
+                    not cut corners to find an answer. Adam is an amazing teammate
+                    who will bring positive energy and a level of professionalism
+                    that will be an asset to anyone who is fortunate enough to work
+                    with him."</p>
+              </div>
+            </section>
+          </section>
+          <section class="panel_f">
+            <div class="t-heading">
+              <img class="t-pic" src="./images/khadir.jpg" alt="Khadir">
+              <div class="t-head-box">
+                <p class="t-name">J.B. Hixson, Ph.D.</p>
+                  <p class="t-title">President of Not By Works Ministries</p>
+              </div>
+            </div>
+            <div id="t-text-f" class="t-text">
+              <p>
+                "I am pleased to recommend Adam Lair. I have known Adam for about
+                five years, and it has been my privilege to serve with him in
+                multiple contexts. When I became the President of Cornerstone
+                Bible Institute a few years ago, Adam was the first person I
+                invited to join our faculty. I have witnessed and admire his
+                strong work ethic, gifted teaching ability, and excellent
+                relational skills with both students and coworkers.
+              </p>
+              <p>
+                Adam’s giftedness and exceptional leadership qualities have
+                captured my heart. He is a man of exceptional moral character.
+              </p>
+              <p>
+                Over and above his fine character, though, Adam is simply one of
+                a kind. His gentle, humble demeanor makes him a joy to be
+                around. He is approachable and admired by all who know him. He
+                is intelligent, caring, and an excellent communicator.
+              </p>
+              <p>
+                In more than thirty years of formal business and ministry
                 experience, I have met many fine, upstanding, moral men and
                 women, and I can think of no one whom I would commend more
                 highly than Adam Lair."
               </p>
-              <p id="j-attr" class="tcard-attribution">
-                <span class="tcard-name">– J. B. Hixson, Ph.D.</span>
-                <span class="tcard-title">Former Employer</span>
-                <span class="tcard-company">President - NBW Ministries</span>
-              </p>
             </div>
-            <div class="item"></div>
-            <div class="item"></div>
-          </div>
+          </section>
         </div>
+        <!-- // .p-wrapper -->
+      </div>
+      <!-- // #carousel -->
+
+      <div id="navigation">
+        <label for="button_a" class="label_a">
+          <span class="t-button-text">Joel Bergman</span>
+        </label>
+        <label for="button_b" class="label_b">
+          <span class="t-button-text">Khadir Williams</span>
+        </label>
+        <label for="button_c" class="label_c">
+          <span class="t-button-text">Thomas Fraley</span>
+        </label>
+        <label for="button_d" class="label_d">
+          <span class="t-button-text">Michael Auer</span>
+        </label>
+        <label for="button_e" class="label_e">
+          <span class="t-button-text">Nelson Fant IV</span>
+        </label>
+        <label for="button_f" class="label_f">
+          <span class="t-button-text">J. B. Hixson</span>
+        </label>
+      </div>
+      <!-- // #navigation -->
+    </div>
+    <!-- // #container -->
       </div>
 
       <div id="contact-header" class="section">
