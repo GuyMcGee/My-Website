@@ -20,7 +20,8 @@ body {
   align-items: center;
   justify-content: center;
   padding-bottom: 5rem;
-  color: white;
+  color: rgb(216, 216, 216);
+  padding: 0;
 }
 
 .top-nav {
@@ -43,8 +44,8 @@ a {
 }
 
 .nav-button {
-  margin: 1.6rem;
-  color: white;
+  margin: 1.6rem 3rem;
+  color: rgb(216, 216, 216);
 }
 
 #home-section {
@@ -88,14 +89,12 @@ a {
   margin-bottom: 5rem;
   padding: 0.5rem 4rem;
   font-size: 5rem;
-  color: white;
+  color: rgb(190, 190, 190);
   background: rgba(36, 36, 36, 0.4);
   border-radius: 5px;
 }
 
 .main-background {
-  background: url(../svg-backgrounds/liquid-cheese.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../svg-backgrounds/endless-constellation2.svg);
   background-position: center;
 }
