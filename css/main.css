@@ -27,7 +27,8 @@ body {
 .top-nav {
   display: flex;
   flex-direction: column;
-  background-color: rgb(63, 63, 63);
+  background-color: #003002;
+
   padding: 1rem;
   font-size: 2.5rem;
   align-items: center;
@@ -48,6 +49,10 @@ a {
   color: rgb(216, 216, 216);
 }
 
+.nav-button:hover {
+  color: gold;
+}
+
 #home-section {
   position: relative;
   min-height: 100vh;
@@ -66,17 +71,17 @@ a {
   align-items: center;
   text-align: center;
   padding: 0.5rem 0.5rem;
-  background-color: dodgerblue;
-  background: rgba(36, 36, 36, 0.8);
+  background: rgba(36, 36, 36, 0.9);
   border-radius: 5px;
   font-size: 6.5rem;
-  color: azure;
-  text-shadow: 3px 3px rgb(49, 49, 49);
+  color: rgb(228, 228, 228);
   margin-bottom: 17rem;
 }
 
 .subtitle {
   font-size: 3rem;
+  color: gold;
+  padding-bottom: 1rem;
 }
 
 .my-name,

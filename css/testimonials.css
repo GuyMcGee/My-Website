@@ -88,7 +88,7 @@
   text-align: center;
   border-radius: 5px;
   color: #dbdbdb;
-  background-color: #005204;
+  background-color: #004203;
   transition: all 0.3s ease;
 }
 
@@ -97,8 +97,8 @@
 }
 
 [class^="label_"]:hover {
-  color: #444;
-  background-color: #ffeed9;
+  color: rgb(238, 238, 238);
+  background-color: rgb(22, 148, 0);
 }
 
 .t-button-text {
@@ -113,8 +113,8 @@
 #button_e:checked ~ #navigation .label_e,
 #button_f:checked ~ #navigation .label_f {
   cursor: default;
-  color: #fff;
-  background-color: #2a9400;
+  color: rgb(226, 192, 0);
+  background-color: #383838;
 }
 
 .t-heading {
@@ -123,7 +123,6 @@
   text-align: center;
   margin-bottom: 0;
   font-size: 33px;
-  font-weight: bold;
 }
 
 .t-head-box {
@@ -141,9 +140,17 @@
 }
 
 .t-name,
-.t-title,
-.t-company {
+.t-title {
   margin-bottom: 0;
+}
+
+.t-name {
+  font-weight: bold;
+}
+
+.t-title {
+  color: rgb(226, 192, 0);
+  text-shadow: #383838;
 }
 
 .t-text {
