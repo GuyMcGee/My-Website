@@ -15,14 +15,14 @@
 
 #carousel {
   overflow: hidden;
-  height: 600px;
+  height: 50vh;
   border-radius: 15px;
   background-color: #383838;
 }
 
 .p-wrapper {
   position: relative;
-  width: 100%;
+  width: 50vw;
   height: 100%;
   transition: transform 0.4s ease-in-out;
 }
