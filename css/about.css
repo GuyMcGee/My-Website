@@ -1,10 +1,10 @@
 #about-section {
   background: rgb(49, 49, 49);
-  height: 100vh;
 }
 
 .about-text {
   font-size: 3rem;
   max-width: 50ch;
   padding-top: 4rem;
+  word-wrap: break-word;
 }
