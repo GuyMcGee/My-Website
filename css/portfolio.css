@@ -1,9 +1,9 @@
-#portfolio-section {
+/* #portfolio-section {
   background: url("../svg-backgrounds/radiant-gradient.svg");
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 
 .portfolio-row {
   display: flex;

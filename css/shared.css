@@ -57,7 +57,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
-  /* background-blend-mode: lighten; */
 }
 
 #title-block {
@@ -92,6 +91,11 @@ a {
   color: white;
   background: rgba(36, 36, 36, 0.4);
   border-radius: 5px;
-  /* text-shadow: -1px -1px 0 #1c1c1c, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c,
-    1px 1px 0 #1c1c1c; */
+}
+
+.main-background {
+  background: url(../svg-backgrounds/liquid-cheese.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

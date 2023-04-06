@@ -1,9 +1,9 @@
-#testimonials-section {
+/* #testimonials-section {
   background: url(../svg-backgrounds/liquid-cheese.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 
 #t-container {
   display: flex;
