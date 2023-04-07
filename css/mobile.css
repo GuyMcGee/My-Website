@@ -9,6 +9,21 @@
   }
 
   .about-text {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+
+  .section-title {
+    font-size: 4rem;
+  }
+
+  .portfolio-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio-card {
+    width: 84vw;
+    box-shadow: 1px 1px 5px 1px #022504;
   }
 }
