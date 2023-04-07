@@ -150,6 +150,7 @@
 
 .t-text {
   max-width: 70ch;
+  padding: 0 2rem;
 }
 
 .t-text > p {
@@ -158,6 +159,13 @@
 
 .t-text > p:not(:last-child) {
   margin-bottom: 1.5rem;
+}
+
+#t-text-a {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 2.6rem;
+  width: 51ch;
 }
 
 #t-text-c,
@@ -173,11 +181,4 @@
   line-height: 39px;
   width: 50ch;
   padding-top: 50px;
-}
-
-#t-text-a {
-  text-align: center;
-  font-size: 29px;
-  line-height: 39px;
-  width: 51ch;
 }
