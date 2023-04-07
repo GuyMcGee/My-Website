@@ -14,7 +14,7 @@
 
 #carousel {
   overflow: hidden;
-  height: 60vh;
+  height: 58vh;
   border-radius: 15px;
   background-color: #383838;
 }
@@ -150,13 +150,13 @@
 
 .t-text {
   padding: 0 2rem;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  text-align: left;
 }
 
 .t-text > p {
   margin-top: 0;
-  font-size: 2rem;
-  line-height: 2.3rem;
-  text-align: left;
 }
 
 .t-text > p:not(:last-child) {
