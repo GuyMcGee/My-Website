@@ -154,27 +154,11 @@
 
 .t-text > p {
   margin-top: 0;
-}
-
-.t-text > p:not(:last-child) {
-  margin-bottom: 1.5rem;
-}
-
-#t-text-a {
-  text-align: center;
-  font-size: 2.5rem;
-  line-height: 2.8rem;
-}
-
-#t-text-c,
-#t-text-f {
   font-size: 2rem;
   line-height: 2.3rem;
   text-align: left;
 }
 
-#t-text-e {
-  text-align: center;
-  font-size: 30px;
-  line-height: 39px;
+.t-text > p:not(:last-child) {
+  margin-bottom: 1.5rem;
 }
