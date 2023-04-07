@@ -4,27 +4,31 @@
 }
 
 #contact-button-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   height: 500px;
   margin-top: 0;
+  color: #d4d4d4;
+}
+
+.change-icon,
+.linkedin-wrapper {
+  margin: 16rem;
 }
 
 .fa-envelope-open-text {
-  color: white;
   font-size: 20rem;
 }
 
 .fa-envelope {
   font-size: 20rem;
-  transition: font-size 1s, color 2s;
+  transition: color 1s;
 }
 
 .fa-envelope:hover {
-  font-size: 33rem;
+  /* font-size: 23rem; */
   color: gold;
-}
-
-.email-button {
-  color: white;
 }
 
 .change-icon > .fa-envelope-open-text + .email-button,
@@ -33,4 +37,14 @@
 }
 .change-icon:hover > .fa-envelope-open-text + .email-button {
   display: inherit;
+}
+
+.fa-linkedin {
+  font-size: 20rem;
+  color: #d4d4d4;
+}
+
+.fa-linkedin:hover {
+  color: gold;
+  transition: color 1s;
 }
