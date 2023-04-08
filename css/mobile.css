@@ -9,6 +9,11 @@
     padding: 0;
   }
 
+  .my-name,
+  .subtitle {
+    margin: 0.5rem 0.3rem;
+  }
+
   .about-text {
     font-size: 1.8rem;
     line-height: 2.3rem;
@@ -127,5 +132,9 @@
   .fa-linkedin:hover {
     color: gold;
     transition: color 1s;
+  }
+
+  .category {
+    font-size: 3rem;
   }
 }

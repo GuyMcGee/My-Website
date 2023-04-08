@@ -4,11 +4,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: rgb(41, 41, 41);
 }
 
 .credit-list {
-  width: 50ch;
   margin-bottom: 10rem;
+  padding: 0 3rem;
 }
 
 .category {
@@ -18,7 +19,7 @@ body {
 }
 
 .category:not(:first-child) {
-  margin-top: 15rem;
+  margin-top: 13rem;
 }
 
 a {
@@ -28,8 +29,6 @@ a {
 
 .credit {
   font-size: 3rem;
-  color: white;
-  text-shadow: 2px 2px 2px black;
   text-align: left;
 }
 
@@ -40,9 +39,22 @@ a {
 #back-button {
   font-size: 3rem;
   font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 2px black;
   text-align: left;
   margin-top: 3rem;
   margin-bottom: 8rem;
+}
+
+@media screen and (max-width: 450px) {
+  .category {
+    font-size: 3rem;
+  }
+
+  .category:not(:first-child) {
+    margin-top: 8rem;
+  }
+
+  .credit {
+    font-size: 2rem;
+    text-align: left;
+  }
 }
