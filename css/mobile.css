@@ -46,10 +46,11 @@
   }
 
   #t-container {
-    margin-left: 4rem;
+    margin: 0 1rem;
   }
 
-  .p-wrapper {
+  .t-wrapper {
+    width: 100%;
   }
 
   .t-text {
@@ -65,8 +66,17 @@
   }
 
   .t-pic {
-    height: 5rem;
-    width: 5rem;
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .t-heading {
+    font-size: 1.7rem;
+  }
+
+  .t-name,
+  .t-title {
+    text-align: center;
   }
 
   #contact-button-section {

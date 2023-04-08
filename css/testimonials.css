@@ -17,41 +17,42 @@
   height: 58vh;
   border-radius: 15px;
   background-color: #383838;
+  padding-right: 1rem;
 }
 
-.p-wrapper {
+.t-wrapper {
   position: relative;
-  width: 60vw;
+  width: 120ch;
   height: 100%;
   transition: transform 0.4s ease-in-out;
 }
 
-#button_a:checked ~ #carousel .p-wrapper {
+#button_a:checked ~ #carousel .t-wrapper {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 
-#button_b:checked ~ #carousel .p-wrapper {
+#button_b:checked ~ #carousel .t-wrapper {
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
 }
 
-#button_c:checked ~ #carousel .p-wrapper {
+#button_c:checked ~ #carousel .t-wrapper {
   -webkit-transform: translateY(-200%);
   transform: translateY(-200%);
 }
 
-#button_d:checked ~ #carousel .p-wrapper {
+#button_d:checked ~ #carousel .t-wrapper {
   -webkit-transform: translateY(-300%);
   transform: translateY(-300%);
 }
 
-#button_e:checked ~ #carousel .p-wrapper {
+#button_e:checked ~ #carousel .t-wrapper {
   -webkit-transform: translateY(-400%);
   transform: translateY(-400%);
 }
 
-#button_f:checked ~ #carousel .p-wrapper {
+#button_f:checked ~ #carousel .t-wrapper {
   -webkit-transform: translateY(-500%);
   transform: translateY(-500%);
 }
@@ -77,6 +78,7 @@
   display: block;
   cursor: pointer;
   margin: 8px 0;
+  width: 100%;
   height: 100%;
   text-align: center;
   border-radius: 50px;
