@@ -1,7 +1,24 @@
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.my-pic {
+  border-radius: 5px;
+  max-width: 40%;
+  height: auto;
+}
+
 .about-text {
   font-size: 2.5rem;
   line-height: 3.3rem;
   max-width: 55ch;
-  padding: 11rem 4rem 0;
+  padding: 0 4rem 0;
   word-wrap: break-word;
+  color: rgb(197, 197, 197);
+}
+
+.about-text > p {
+  margin-top: 0;
 }

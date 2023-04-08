@@ -14,6 +14,16 @@
     margin: 0.5rem 0.3rem;
   }
 
+  .about-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-pic {
+    max-width: 70vw;
+    margin-bottom: 2rem;
+  }
+
   .about-text {
     font-size: 1.8rem;
     line-height: 2.3rem;
@@ -30,6 +40,7 @@
   .portfolio-card {
     margin: 2rem 0;
     width: 84vw;
+    padding: 0 1rem 1rem;
     box-shadow: 1px 1px 5px 1px #022504;
   }
 
@@ -119,6 +130,11 @@
     transition: color 1s;
   }
 
+  .change-icon > .fa-envelope-open-text + .email-button,
+  .change-icon:hover > .fa-envelope-open-text {
+    display: none;
+  }
+
   .fa-envelope:hover {
     /* font-size: 23rem; */
     color: gold;
@@ -132,9 +148,5 @@
   .fa-linkedin:hover {
     color: gold;
     transition: color 1s;
-  }
-
-  .category {
-    font-size: 3rem;
   }
 }
