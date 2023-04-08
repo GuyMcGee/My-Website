@@ -60,6 +60,7 @@
   .t-text {
     font-size: 1.5rem;
     padding: 0;
+    line-height: 2rem;
   }
 
   #navigation {
@@ -92,10 +93,39 @@
   }
 
   .t-title {
-    margin: 0 0 2rem;
+    margin: 0 0 3.5rem;
   }
 
   #contact-button-section {
     flex-direction: column;
+  }
+
+  .change-icon,
+  .linkedin-wrapper {
+    margin: 6rem;
+  }
+
+  .fa-envelope-open-text {
+    font-size: 15rem;
+  }
+
+  .fa-envelope {
+    font-size: 15rem;
+    transition: color 1s;
+  }
+
+  .fa-envelope:hover {
+    /* font-size: 23rem; */
+    color: gold;
+  }
+
+  .fa-linkedin {
+    font-size: 15rem;
+    color: #d4d4d4;
+  }
+
+  .fa-linkedin:hover {
+    color: gold;
+    transition: color 1s;
   }
 }
