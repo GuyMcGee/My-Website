@@ -49,12 +49,17 @@
     margin: 0 1rem;
   }
 
+  #carousel {
+    height: 75vh;
+  }
+
   .t-wrapper {
     width: 100%;
   }
 
   .t-text {
     font-size: 1.5rem;
+    padding: 0;
   }
 
   #navigation {
@@ -66,8 +71,8 @@
   }
 
   .t-pic {
-    height: 8rem;
-    width: 8rem;
+    height: 13rem;
+    width: 13rem;
     margin: 1rem 0;
   }
 
@@ -80,7 +85,14 @@
   .t-name,
   .t-title {
     text-align: center;
-    margin: 0 0 1rem;
+  }
+
+  .t-name {
+    margin: 0 0 0.5rem;
+  }
+
+  .t-title {
+    margin: 0 0 2rem;
   }
 
   #contact-button-section {

@@ -17,7 +17,7 @@
   height: 58vh;
   border-radius: 15px;
   background-color: #383838;
-  padding-right: 1rem;
+  padding: 0 1rem;
 }
 
 .t-wrapper {
@@ -131,7 +131,7 @@
   height: 13rem;
   width: 13rem;
   border-radius: 100%;
-  margin: 2rem;
+  margin: 2rem 2rem 2rem 0;
 }
 
 .t-name,
