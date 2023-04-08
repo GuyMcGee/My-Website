@@ -23,7 +23,7 @@
   }
 
   .portfolio-card {
-    margin: 2rem;
+    margin: 2rem 0;
     width: 84vw;
     box-shadow: 1px 1px 5px 1px #022504;
   }

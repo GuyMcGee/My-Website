@@ -23,6 +23,10 @@ body {
   padding: 0;
 }
 
+.section:not(:last-child) {
+  margin-bottom: 10rem;
+}
+
 .top-nav {
   display: flex;
   flex-direction: column;
@@ -54,7 +58,6 @@ a {
 #home-section {
   position: relative;
   min-height: 100vh;
-  margin: 0 0;
   position: relative;
   background-image: url(../images/dark-desk.jpg);
   background-position: center;
@@ -89,7 +92,6 @@ a {
 }
 
 .section-title {
-  margin-top: 6rem;
   margin-bottom: 5rem;
   padding: 0.5rem 4rem;
   font-size: 5rem;
