@@ -122,17 +122,17 @@
   }
 
   .fa-envelope-open-text {
-    font-size: 15rem;
+    font-size: 0;
   }
 
   .fa-envelope {
     font-size: 15rem;
-    transition: color 1s;
+    color: #d4d4d4;
   }
 
   .change-icon > .fa-envelope-open-text + .email-button,
   .change-icon:hover > .fa-envelope-open-text {
-    display: none;
+    display: block;
   }
 
   .fa-envelope:hover {
@@ -147,6 +147,5 @@
 
   .fa-linkedin:hover {
     color: gold;
-    transition: color 1s;
   }
 }
