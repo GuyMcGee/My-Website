@@ -61,6 +61,11 @@
     padding: 0.5rem;
   }
 
+  #last-s-row img {
+    width: 140px;
+    height: auto;
+  }
+
   #t-container {
     margin: 0 1rem;
   }
