@@ -8,18 +8,18 @@ body {
 }
 
 .credit-list {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   padding: 0 3rem;
 }
 
 .category {
   text-align: center;
-  font-size: 5rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .category:not(:first-child) {
-  margin-top: 13rem;
+  margin-top: 5rem;
 }
 
 a {
@@ -28,12 +28,12 @@ a {
 }
 
 .credit {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: left;
 }
 
 .credit:not(:last-child) {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 #back-button {
@@ -46,15 +46,19 @@ a {
 
 @media screen and (max-width: 450px) {
   .category {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .category:not(:first-child) {
-    margin-top: 8rem;
+    margin-top: 3rem;
   }
 
   .credit {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
+  }
+
+  #back-button {
+    font-size: 2rem;
   }
 }
