@@ -175,7 +175,7 @@
   }
 }
 
-@media screen and (max-width: 930px) {
+@media (min-width: 451px) and (max-width: 930px) {
   .top-nav {
     font-size: 2rem;
     padding: 0.4rem;
@@ -190,7 +190,7 @@
   }
 
   .my-name {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 
   .subtitle {
