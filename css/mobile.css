@@ -147,7 +147,7 @@
     margin: 0 0 3.5rem;
   }
 
-  #contact-button-section {
+  #contact-section {
     flex-direction: column;
   }
 
@@ -161,7 +161,7 @@
   }
 
   .fa-envelope {
-    font-size: 15rem;
+    font-size: 10rem;
     color: #d4d4d4;
   }
 
@@ -176,7 +176,7 @@
   }
 
   .fa-linkedin {
-    font-size: 15rem;
+    font-size: 10rem;
     color: #d4d4d4;
   }
 
@@ -187,12 +187,12 @@
 
 @media (min-width: 451px) and (max-width: 930px) {
   .top-nav {
-    font-size: 2rem;
-    padding: 0.4rem;
+    font-size: 1.8rem;
+    padding: 0.4rem 0;
   }
 
   .nav-button {
-    margin: 0 2rem;
+    margin: 0 1rem;
   }
 
   #title-block {
@@ -205,5 +205,23 @@
 
   .subtitle {
     font-size: 3rem;
+  }
+
+  .portfolio-card {
+    margin: 2rem;
+  }
+
+  .t-wrapper {
+    width: 100%;
+  }
+
+  #carousel {
+    height: 75vh;
+    padding: 0 0.5rem;
+  }
+
+  .fa-envelope-open-text,
+  .fa-linkedin {
+    font-size: 14rem;
   }
 }
