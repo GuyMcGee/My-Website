@@ -63,6 +63,27 @@
     box-shadow: 1px 1px 5px 1px #022504;
   }
 
+  .fa-up-right-from-square,
+  .fa-github {
+    font-size: 3.5rem;
+  }
+
+  .gicon-1st {
+    right: 10px;
+  }
+
+  .gicon-2nd {
+    right: 60px;
+  }
+
+  .fa-up-right-from-square {
+    right: 10px;
+  }
+
+  .pcard-title {
+    margin-top: 65px;
+  }
+
   .pcard-text {
     font-size: 1.8rem;
     line-height: 2.3rem;

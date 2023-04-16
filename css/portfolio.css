@@ -1,10 +1,3 @@
-/* #portfolio-section {
-  background: url("../svg-backgrounds/radiant-gradient.svg");
-  background-repeat: repeat;
-  background-size: cover;
-  background-position: center;
-} */
-
 .portfolio-row {
   display: flex;
   flex-direction: row;
@@ -30,7 +23,7 @@
 .fa-github {
   position: absolute;
   top: 15px;
-  font-size: 3rem;
+  font-size: 4.1rem;
   color: rgb(162, 162, 162);
 }
 
@@ -39,7 +32,7 @@
 }
 
 .gicon-2nd {
-  right: 64px;
+  right: 77px;
 }
 
 .fa-up-right-from-square {
