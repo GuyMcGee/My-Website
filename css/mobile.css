@@ -210,6 +210,10 @@
   .fa-linkedin:hover {
     color: gold;
   }
+
+  footer {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 451px) and (max-width: 930px) {
@@ -245,6 +249,11 @@
     font-size: 3rem;
   }
 
+  .section-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
   .portfolio-card {
     margin: 2rem;
   }
@@ -263,6 +272,23 @@
     padding: 0 0.5rem;
   }
 
+  #navigation {
+    margin-left: 0.5rem;
+  }
+
+  #navigation > label {
+  }
+
+  #navigation > label:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  .t-button-text {
+    white-space: nowrap;
+    font-size: 1.5rem;
+    padding: 0.8rem 0.8rem;
+  }
+
   .t-pic {
     height: 13rem;
     width: 13rem;
@@ -277,12 +303,6 @@
     font-size: 1.5rem;
     padding: 0;
     line-height: 2rem;
-  }
-
-  .t-button-text {
-    max-width: 10ch;
-    font-size: 1.6rem;
-    padding: 0.8rem 0.2rem;
   }
 
   .fa-envelope-open-text,
