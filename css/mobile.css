@@ -219,6 +219,16 @@
     max-width: 100%;
   }
 
+  .nav-wrapper {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
   .nav-button {
     margin: 0 1.4rem;
   }
@@ -254,6 +264,8 @@
   }
 
   .t-pic {
+    height: 13rem;
+    width: 13rem;
     margin: 1rem;
   }
 

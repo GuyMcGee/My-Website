@@ -28,18 +28,22 @@ body {
 }
 
 .top-nav {
-  display: flex;
-  flex-direction: column;
   background-color: #003002;
-  padding: 1rem;
-  font-size: 2.5rem;
-  align-items: center;
-  justify-content: center;
+  padding: 1rem 0;
   text-decoration: none;
   position: fixed;
-  height: 28px;
   width: 100vw;
   z-index: 1;
+}
+
+.nav-wrapper {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 a {
@@ -47,8 +51,9 @@ a {
 }
 
 .nav-button {
-  margin: 1.6rem 3rem;
+  margin: 0 3rem;
   color: rgb(216, 216, 216);
+  display: block;
 }
 
 .nav-button:hover {
