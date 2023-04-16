@@ -96,6 +96,11 @@
     max-width: 100%;
   }
 
+  #frendr-pic {
+    max-width: 100%;
+    height: auto;
+  }
+
   .skills-box {
     margin: 0;
     padding: 0.5rem;
@@ -232,6 +237,11 @@
 
   .portfolio-card {
     margin: 2rem;
+  }
+
+  #frendr-pic {
+    max-width: 100%;
+    height: auto;
   }
 
   .t-wrapper {
