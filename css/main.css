@@ -51,9 +51,8 @@ a {
 }
 
 .nav-button {
-  margin: 0 3rem;
   color: rgb(216, 216, 216);
-  display: block;
+  margin-right: 5rem;
 }
 
 .nav-button:hover {
