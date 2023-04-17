@@ -82,6 +82,7 @@
 
   .pcard-title {
     margin-top: 65px;
+    line-height: 3.3rem;
   }
 
   .pcard-text {
@@ -112,7 +113,7 @@
   }
 
   #t-container {
-    width: 99vw;
+    width: 98vw;
     margin: 0 0.3rem;
   }
 
@@ -172,6 +173,7 @@
 
   .t-title {
     margin: 0 0 3.5rem;
+    line-height: 2rem;
   }
 
   .c-button-wrapper {
