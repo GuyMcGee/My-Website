@@ -107,10 +107,10 @@
     padding: 0.5rem;
   }
 
-  #last-s-row img {
+  /* #last-s-row img {
     width: 140px;
     height: auto;
-  }
+  } */
 
   #t-container {
     width: 98vw;
@@ -321,8 +321,26 @@
     line-height: 2rem;
   }
 
-  .fa-envelope-open-text,
   .fa-linkedin {
     font-size: 14rem;
+  }
+
+  .fa-envelope-open-text {
+    font-size: 0;
+  }
+
+  .fa-envelope {
+    font-size: 14rem;
+    color: #d4d4d4;
+  }
+
+  .change-icon > .fa-envelope-open-text + .email-button,
+  .change-icon:hover > .fa-envelope-open-text {
+    display: block;
+  }
+
+  .fa-envelope:hover {
+    /* font-size: 23rem; */
+    color: gold;
   }
 }
