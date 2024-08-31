@@ -115,3 +115,7 @@ ul li:before {
   width: 500px;
   height: auto;
 }
+
+.p-title-sub {
+  margin: 4.5rem 0 0;
+}
