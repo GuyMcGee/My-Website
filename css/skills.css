@@ -51,8 +51,8 @@
 }
 
 .carousel__face > img {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   object-fit:contain;
   margin: 0 1rem;
 }
