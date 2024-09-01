@@ -32,11 +32,8 @@
   height: 100%;
   transform-style: preserve-3d; 
   animation: rotate360 55s infinite forwards linear;
+  
 }
-
-#second-carosel-container, #second-carosel {
-  margin-top: 20rem;
-  }
 
 .carousel__face { 
   position: absolute;
@@ -48,6 +45,7 @@
   background-size: cover;
   display: flex;
   justify-content: center;
+  
 }
 
 .carousel__face > img {
